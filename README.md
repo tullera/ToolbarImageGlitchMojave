@@ -1,7 +1,7 @@
 # ToolbarImageGlitchMojave
 sample project for toolbar not drawing correctly when built with 10.6 SDK on Mojave
 
-Our existing release version is built with Xcode 3.2.6 using the 10.6 SDK. I noticed a drawing glitch in the toolbar in Mojave (18A371a) when using the existing release binary. I whittled it down to this reproducible project which builds with both Xcode 3.2.6 and Xcode 10.
+Our existing release version is built with Xcode 3.2.6 using the 10.6 SDK on a 10.6 machine. I noticed a drawing glitch in the toolbar in Mojave (18A371a) when using the existing release binary. I whittled it down to this reproducible project which builds with both Xcode 3.2.6 and Xcode 10.
 
 Here is our toolbar item (a simple NSButton with an image set) not faded correctly, this screenshot is from the 10.6 build:\
 ![10.6 background](build%20with%2010.6%20SDK%20background.png)
