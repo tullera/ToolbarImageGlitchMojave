@@ -10,8 +10,10 @@ Here is our toolbar item (a simple NSButton with an image set) not faded correct
 Here it is correct from the 10.14 build of the same source:
 ![10.14 background](build%20with%2010.14%20SDK%20background.png)
 
+
 There's another glitch with the separator line when built with 10.6:
 ![10.6 forground](build%20with%2010.6%20SDK%20foreground.png)
+
 
 vs 10.14 SDK, again, same exact project:
 ![10.14 forground](build%20with%2010.14%20SDK%20foreground.png)
